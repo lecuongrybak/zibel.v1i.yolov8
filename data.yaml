@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Bin', 'Glass', 'Metal', 'Other', 'Plastic']
+
+roboflow:
+  workspace: mcastiict
+  project: zibel
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/mcastiict/zibel/dataset/1
